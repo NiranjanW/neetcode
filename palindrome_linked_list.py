@@ -15,7 +15,7 @@ class solution:
         # s = s.replace(/[^a-zA-Z]+/g, " ").toLowerCase().replace(/\s+/g, '');
         return s1 == s1[::-1]
     
-    def isPalindrome ( self , head:ListNode) -> bool : 
+    def isPalindrome (  head:ListNode) -> bool : 
         nums =[]
         
         while head:
@@ -27,4 +27,5 @@ class solution:
             if nums[l] != nums[r]:
                 return False 
             l +=1
+            r -= 1
         return True
