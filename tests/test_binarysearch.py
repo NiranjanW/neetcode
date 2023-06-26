@@ -16,4 +16,4 @@ def test_binarysearch(input: List[int]):
     :param List[str] palindromes: A list of palindrome strings
     """
     for value in input:
-        assert( Solution.search(value, 9) ) == 4
+        assert( Solution.binSearch(value, 9) ) == 4
